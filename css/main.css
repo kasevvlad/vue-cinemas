@@ -15,7 +15,7 @@
   padding: 0 15px;
   margin: 0 auto;
   min-height: 40px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 /* icons */
 *::before,
@@ -533,8 +533,21 @@
 .footer{
   width: 100%;
   min-height: 40px;
-  
   background: linear-gradient(90deg, #FF8C30 0%, #9F4700 100%);
+}
+.footer__content{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 26px 0;
+}
+.footer__img{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.footer__img img{
+  width: 108px;
 }
 
 
